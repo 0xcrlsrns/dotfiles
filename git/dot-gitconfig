@@ -1,2 +1,5 @@
 [init]
 	defaultBranch = main
+[user]
+	email = 0xcrlsrns@pm.me
+	name = Carlos Arenas
