@@ -3,3 +3,6 @@
 
 # dont include vim plugins
 vim/dot-vim/bundle/
+
+# protect secrets
+aws/dot-aws/credentials
