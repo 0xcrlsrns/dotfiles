@@ -1,0 +1,22 @@
+source ~/.vim/bundle.vim
+
+syntax on
+filetype plugin indent on
+
+set autoindent   " 
+set expandtab    " 
+set hlsearch     " highlight all search results
+set ignorecase   " do case insensitive search
+set incsearch    " show incremental search results
+"set noswapfile   " disable swap file
+set number       " display line number
+set shiftwidth=4 " 
+set tabstop=4    " 
+
+autocmd FileType html setlocal shiftwidth=2 tabstop=2
+autocmd FileType javascript setlocal shiftwidth=2 tabstop=2
+autocmd FileType python setlocal shiftwidth=4 tabstop=4
+
+"set spell spelllang=en_us
+" toggle spelling visuals
+"nnoremap s :set spell!

@@ -1,0 +1,5 @@
+# dont include vim network history file
+.netrwhist
+
+# dont include vim plugins
+vim/dot-vim/bundle/
